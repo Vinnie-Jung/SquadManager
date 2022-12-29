@@ -1,0 +1,40 @@
+@model squadManager.Models.UserViewModel
+
+<!-- Script block -->
+@{
+    Layout = null; // Removes default styles configuration 
+}
+
+<head>
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="/css/login_form.css">
+
+    <!-- META TAGS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=dervice-width, initial-scale=1.0">
+
+    <title>Login</title>
+</head>
+
+<body>
+    <!-- Login Form -->
+    <main id="main-login">
+        <div id="left-side">
+            <h1>Squad Manager</h1>
+            <img src="/img/login_form_image.svg">
+        </div>
+        <div id="right-side">
+            <div id="login-box">
+                <h1>LOGIN</h1>
+                <div id="user-inp">
+                    <label for="user">Usuário:</label>
+                    <input type="text" name="user" placeholder="Email ou usuário">
+                    <label for="password">Senha:</label>
+                    <input type="password" name="password" placeholder="Senha">
+                </div>
+                <button id="login-btn">Entrar</button>
+            </div>
+        </div>
+    </main>
+</body>

@@ -8,9 +8,9 @@ namespace squadManager.Controllers
 {
     public class LoginController : Controller
     {
-        public IActionResult LoginPage()
+        public IActionResult Login()
         {
-            return View("login");
+            return View("login_form");
         }
     }
 }
