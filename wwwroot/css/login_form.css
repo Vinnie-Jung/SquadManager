@@ -119,9 +119,10 @@ body
 }
 
 #user-inp > button:hover {
-    background: #d0eb5a;
+    background: #332d44;
     transform: scale(1.1);
     transition: all 0.2s;
+    border: 1px solid #514869;
 }
 
 #forgot-password > a {
